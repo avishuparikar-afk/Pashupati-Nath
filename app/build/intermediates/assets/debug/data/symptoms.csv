@@ -1,0 +1,21 @@
+id,symptom_key,label_en,label_hi,label_mr,icon
+S001,fever,Fever,बुखार,ताप,ic_warning
+S002,not_eating,Not Eating,खाना नहीं खाता,अन्न खात नाही,ic_warning
+S003,limping,Limping,लंगड़ा रहा है,लंगडत आहे,ic_warning
+S004,swelling,Swelling,सूजन,सूज,ic_warning
+S005,wound,Wound,चोट,जखम,ic_warning
+S006,milk_low,Low Milk,दूध कम,दूध कमी,ic_warning
+S007,diarrhea,Diarrhea,दस्त,जुलाब,ic_warning
+S008,mouth_sores,Mouth Sores,मुंह के छाले,तोंडातील फोड,ic_warning
+S009,skin_nodules,Skin Lumps,त्वचा पर गांठ,त्वचेवरील गाठी,ic_warning
+S010,breathing_difficulty,Breathing Problem,सांस की तकलीफ,श्वासाचा त्रास,ic_warning
+S011,weakness,Weakness,कमजोरी,अशक्तपणा,ic_warning
+S012,nasal_discharge,Runny Nose,नाक बहना,नाकातून पाणी,ic_warning
+S013,cough,Coughing,खांसी,खोकला,ic_warning
+S014,udder_swelling,Udder Swelling,थन में सूजन,कासेवरील सूज,ic_warning
+S015,abortion,Abortion,गर्भपात,गर्भपात,ic_warning
+S016,itching,Itching,खुजली,खाज,ic_warning
+S017,bloat,Stomach Swelling,पेट फूलना,पोट फुगणे,ic_warning
+S018,sudden_death,Sudden Death,अचानक मौत,अचानक मृत्यू,ic_warning
+S019,birth_signs,Birth Signs,प्रसव के लक्षण,प्रसूतीचे लक्षण,ic_warning
+S020,heat_stress,Heat Stress,गर्मी का तनाव,उष्णतेचा ताण,ic_warning

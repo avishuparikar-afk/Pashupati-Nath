@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ghibli_cream"
+    android:fillViewport="true"
+    tools:context=".ReportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:paddingBottom="32dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:text="📖 Reports"
+            android:textColor="@color/ink_primary"
+            android:textSize="28sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:letterSpacing="-0.02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Your herd's scan history"
+            android:textColor="@color/ink_secondary"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/card_ghibli"
+                android:padding="18dp"
+                android:layout_marginEnd="6dp">
+                <TextView android:text="🌱 Total Scans"
+                    android:textColor="@color/ink_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView android:text="0"
+                    android:textColor="@color/ghibli_sage_deep"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/card_ghibli"
+                android:padding="18dp"
+                android:layout_marginStart="6dp">
+                <TextView android:text="🛡️ Healthy"
+                    android:textColor="@color/ink_secondary"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView android:text="100%"
+                    android:textColor="@color/ghibli_peach_deep"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="Recent Scans"
+            android:textColor="@color/ink_primary"
+            android:textSize="17sp"
+            android:fontFamily="@font/poppins"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/card_ghibli"
+            android:padding="36dp"
+            android:layout_marginTop="12dp">
+
+            <TextView android:text="🌾" android:textSize="48sp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+            <TextView android:text="No scans yet"
+                android:textColor="@color/ink_primary"
+                android:textSize="16sp" android:textStyle="bold"
+                android:fontFamily="@font/poppins"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+            <TextView android:text="Scan an animal to see its story here"
+                android:textColor="@color/ink_secondary"
+                android:textSize="13sp"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
